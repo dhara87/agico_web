@@ -3,7 +3,7 @@ title: "About Us"
 # watermark text
 watermark: "About"
 # page header background image
-page_header_image: "images/background/about.jpg"
+page_header_image: "/images/background/about.jpg"
 # meta description
 description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
 
@@ -13,8 +13,8 @@ draft : false
 ############################## about ###############################
 about:
   enable : true
-  video_bg_image : "images/about/about-3.jpg"
-  video_thumbnail : "images/about/about-4.jpg"
+  video_bg_image : "/images/about/about-3.jpg"
+  video_thumbnail : "/images/about/about-4.jpg"
   video_link : "https://www.youtube.com/watch?v=VufDd-QL1c0"
   subtitle : "About Agico"
   title : "Eausmod tempor magna nostrud exercitation"
