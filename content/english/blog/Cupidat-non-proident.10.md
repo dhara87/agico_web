@@ -1,22 +1,18 @@
 ---
-title: "Cupidat non proident sunt officia deserunt mollit anim."
+draft: true
+watermark: Blog
+author: Admin
+title: Cupidat non proident sunt officia deserunt mollit anim.
 date: 2019-04-10T09:51:57+06:00
-# watermark text
-watermark: "Blog"
-# page header background image
-page_header_image: "/images/background/about.jpg"
-# meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
-# post image
-image : "/images/blog/blog-post-10.jpg"
-# post author
-author : "Admin"
-# post categories
-categories: ["Investment Planning"]
-# post tags
-tags: ["Marketing","Finance"]
-# type
-type : "post"
+page_header_image: /images/background/about.jpg
+image: /images/blog/blog-post-10.jpg
+categories: Investment Planning
+tags:
+  - Marketing
+  - Finance
+type: post
+description: Cupidatat non proident sunt culpa qui officia deserunt mollit <br>
+  anim idest laborum sed ut perspiciatis.
 ---
 
 ### Elit duied aiusmod tempor did labore dolory
