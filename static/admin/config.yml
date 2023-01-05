@@ -14,25 +14,25 @@ collections: # A list of collections the CMS should be able to edit
       The description is a great place for tone setting, high level information, and editing
       guidelines that are specific to a collection.
     folder: 'content/english/blog'
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
+    # slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    # summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     create: true # Allow users to create new documents in this collection
-    view_filters:
-      - label: Posts With Index
-        field: title
-        pattern: 'This is post #'
-      - label: Posts Without Index
-        field: title
-        pattern: front matter post
-      - label: Drafts
-        field: draft
-        pattern: true
-    view_groups:
-      - label: Year
-        field: date
-        pattern: \d{4}
-      - label: Drafts
-        field: draft
+    # view_filters:
+    #   - label: Posts With Index
+    #     field: title
+    #     pattern: 'This is post #'
+    #   - label: Posts Without Index
+    #     field: title
+    #     pattern: front matter post
+    #   - label: Drafts
+    #     field: draft
+    #     pattern: true
+    # view_groups:
+    #   - label: Year
+    #     field: date
+    #     pattern: \d{4}
+    #   - label: Drafts
+    #     field: draft
     fields: # The fields each document in this collection have
       - { label: 'Title', name: 'title', widget: 'string', tagname: 'h1' }
       - { label: 'Draft', name: 'draft', widget: 'boolean', default: false }
@@ -45,10 +45,28 @@ collections: # A list of collections the CMS should be able to edit
           format: 'YYYY-MM-DD HH:mm',
         }
       - label: 'Cover Image'
+        name: 'page_header_image'
+        widget: 'image'
+        required: false
+        tagname: ''
+
+      - label: 'Image'
         name: 'image'
         widget: 'image'
         required: false
         tagname: ''
+
+      - label: 'Categories'
+        name: 'categories'
+        widget: 'string'
+        required: false
+        tagname: '' 
+
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'string'
+        required: false
+        tagname: 'Advice","Business","Consultancy","Market Analysis","Marketing","Finance'   
 
       - { label: 'Body', name: 'body', widget: 'markdown', hint: 'Main content goes here.' }
 
