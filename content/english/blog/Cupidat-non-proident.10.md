@@ -6,7 +6,7 @@ title: Cupidat non proident sunt officia deserunt mollit anim.
 date: 2019-04-10T09:51:57+06:00
 page_header_image: /images/background/about.jpg
 image: /images/blog/blog-post-10.jpg
-categories: Investment Planning
+categories: Investment Plannings
 tags:
   - Marketing
   - Finance
